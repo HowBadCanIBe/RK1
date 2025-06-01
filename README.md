@@ -8,7 +8,7 @@
 Позволяет сохранять внутреннее состояние объекта таким образом, чтобы его можно было восстановить в дальнейшем, не нарушая принципов инкапсуляции. Это особенно полезно при работе с критическими системами, такими как виртуальные машины, редакторы, транзакционные системы и т.д. 
 
 **Структура проекта**
-'''sh
+```
 memento-pattern/
 ├── CMakeLists.txt
 ├── main.cc
@@ -23,17 +23,17 @@ memento-pattern/
 └── .github/
     └── workflows/
         └── build-deploy.yml
-'''
+```
 
 **Локальная сборка:**
-'''sh
+```
 git clone https://github.com/yourusername/memento-pattern.git 
 cd memento-pattern
 
 mkdir build && cd build
 cmake ..
 make
-'''
+```
 ./main
 
 Пример вывода
